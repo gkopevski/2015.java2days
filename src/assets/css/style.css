@@ -1,0 +1,144 @@
+html {
+  height: 100%; }
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  min-height: 500px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0;
+  position: relative;
+  min-width: 100%;
+  background-color: darkgray;
+  background-size: 20px 20px;
+  background-repeat: repeat; }
+
+.content {
+  margin-left: 200px;
+  height: 100%; }
+
+.view-container {
+  position: relative;
+  padding-left: 220px;
+  display: block;
+  flex: 1;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 0 auto;
+  min-height: 100% !important;
+  height: 100% !important;
+  clear: right; }
+
+menu {
+  z-index: 200;
+  padding-left: 0;
+  transform: translateY(-50%);
+  float: left;
+  top: 50%;
+  width: 200px;
+  margin: 0 auto;
+  flex: 1;
+  bottom: 0;
+  position: relative;
+  margin-left: 20px;
+  height: 450px;
+  font-size: 28px;
+  display: block;
+  padding-bottom: 10px; }
+
+.menu-item {
+  /* clear: left; */
+  /* display: block; */
+  padding-bottom: 10px;
+  color: #444;
+  padding-bottom: 0;
+  position: relative;
+  /* margin: 0 auto; */
+  line-height: 40px;
+  width: 200px;
+  padding-left: 20px;
+  display: inline-block;
+  clear: right; }
+
+.page-title {
+  position: relative;
+  font-size: 40px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  padding-left: 100px;
+  line-height: 100px;
+  display: block;
+  height: 100px;
+  color: #333; }
+
+.menu-item:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #444;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 15px;
+  left: -2px; }
+
+.menu-and-content {
+  position: relative;
+  width: 840px;
+  margin: 0 auto;
+  height: 579px;
+  clear: right;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.dessert-image {
+  position: absolute;
+  background-image: url("../images/dessert.png");
+  width: 329px;
+  height: 206px;
+  left: -92px;
+  top: 34px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 65% 65%; }
+
+.main-meal-image {
+  position: absolute;
+  background-image: url("../images/main-meal.png");
+  width: 300px;
+  height: 206px;
+  left: 90px;
+  top: 42px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 80% 80%; }
+
+.starter-image {
+  position: absolute;
+  background-image: url("../images/salad.png");
+  width: 250px;
+  height: 166px;
+  left: 382px;
+  top: 87px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 75% 75%; }
+
+.table-image {
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 450px;
+  background-image: url("../images/empty-table.jpg");
+  position: relative;
+  background-size: 100% 100%;
+  border: 10px solid white;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

@@ -4,9 +4,7 @@
 'use strict';
 
 var onAngularReady = function () {
-//    logDebug('onAngularReady');
     angular.element(document).ready(function () {
-//        logDebug('angular.bootstrap');
         angular.bootstrap(document, ['java2days']);
     });
 };

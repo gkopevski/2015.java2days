@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="content-type" content="text/html; charset=UTF8">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
 
 
-
-        <!-- compiled CSS -->
-        <!-- build:css assets/css/style.min.css --><% styles.forEach( function ( file ) { %>
-        <link rel="stylesheet" type="text/css" href="<%= file %>"/><% }); %>
-        <!-- endbuild -->
-    </head>
-    <body ng-cloak>
-
+    <!-- compiled CSS -->
+    <!-- build:css assets/css/style.min.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <!-- endbuild -->
+</head>
+<body ng-cloak>
 
 
-        <div class="menu-and-content">
-            <h1 class="page-title">Java2Days Restaurant</h1>
-            <menu></menu>
-            <div ui-view="content" class="view-container"></div>
-        </div>
+<div class="menu-and-content">
+    <h1 class="page-title">JavaDay 2014 Restaurant</h1>
+    MENI!!
+    <div ui-view="content" class="view-container"></div>
+</div>
 
 
-        <!-- compiled JavaScript -->
-        <!-- build:js java2days.js --><% scripts.forEach( function ( file ) { %>
-        <script type="text/javascript" src="<%= file %>"></script><% }); %>
-        <!-- endbuild -->
+<!-- compiled JavaScript -->
+<!-- build:js java2days.js -->
+<script type="text/javascript" src="vendor/angular/angular.js"></script>
+<script type="text/javascript" src="vendor/angular-animate/angular-animate.js"></script>
+<script type="text/javascript" src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+<script type="text/javascript" src="app/base/app.js"></script>
+<script type="text/javascript" src="app/base/index.js"></script>
+<script type="text/javascript" src="app/controllers/dessertController.js"></script>
+<script type="text/javascript" src="app/controllers/mealController.js"></script>
+<script type="text/javascript" src="app/controllers/starterController.js"></script>
+<script type="text/javascript" src="app/controllers/tableController.js"></script>
+<!-- endbuild -->
 
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
+<script type="text/javascript">
+    app.initialize();
+</script>
+</body>
 </html>
