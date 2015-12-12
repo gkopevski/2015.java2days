@@ -29,7 +29,7 @@ body {
   height: 100% !important;
   clear: right; }
 
-menu {
+.menu {
   z-index: 200;
   padding-left: 0;
   transform: translateY(-50%);

@@ -2,19 +2,19 @@
     'use strict';
 
 
-    var java2days = angular.module('java2days', []);
+    var javaSkop = angular.module('javaSkop', []);
     var modules = [
         'ui.router',
         'ngAnimate',
-        'java2days.table',
-        'java2days.dessert',
-        'java2days.meal',
-        'java2days.starter'
+        'javaSkop.table',
+        'javaSkop.dessert',
+        'javaSkop.meal',
+        'javaSkop.starter'
     ];
     for (var index = 0, module; module = modules[index]; index++) {
-        angular.module('java2days').requires.push(module);
+        angular.module('javaSkop').requires.push(module);
     };
-    angular.module('java2days').config([
+    angular.module('javaSkop').config([
             '$urlRouterProvider',
             '$stateProvider',
             function ($urlRouterProvider, $stateProvider) {

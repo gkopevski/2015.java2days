@@ -5,7 +5,7 @@
 
 var onAngularReady = function () {
     angular.element(document).ready(function () {
-        angular.bootstrap(document, ['java2days']);
+        angular.bootstrap(document, ['javaSkop']);
     });
 };
 

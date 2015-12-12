@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('java2days.starter', [])
+    angular.module('javaSkop.starter', [])
         .controller('StarterController',
             function ($scope) {
                 $scope.title = 'Title!';

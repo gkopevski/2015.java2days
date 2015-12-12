@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('java2days.meal', [])
+    angular.module('javaSkop.meal', [])
         .controller('MealController',
             function ($scope) {
                 $scope.title = 'Title!';

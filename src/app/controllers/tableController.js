@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('java2days.table', [])
+    angular.module('javaSkop.table', [])
         .controller('TableController',
             function ($scope) {
 
